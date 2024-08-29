@@ -1,0 +1,225 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vmin;
+    background-color: brown;
+}
+.Navbar
+{
+    display: flex;
+    flex-direction: column;
+    width: 10vmax;
+    height: 100%;
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.Icons
+{
+    border-radius: 50%;
+    height: 7.5%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    margin: 13% 0 0 0;
+
+}
+.NavOptions 
+{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    width: 35px;
+    height: min-content;
+}
+.HomePage
+{
+    display: flex;
+    flex-direction: column;
+    width: 90vmax;
+    overflow-y: scroll;
+}
+.MainNav
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:10vh;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.SearchBox
+{
+    border: 2px solid #ccc; 
+    border-radius: 15px; 
+    padding: 10px; 
+    font-size: 16px; 
+    width: 80%; 
+    box-sizing: border-box; 
+    outline: none;
+}
+.btn {
+    scale: 0.5;
+    padding: 0 50px;
+    width: 160px;
+    height: 100%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    overflow: hidden;
+  }
+  
+  .btn:hover {
+    color: black;
+  }
+  
+  .btn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+  }
+  
+  .btn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .Cateogary {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+}
+
+.CateogaryOptions {
+    display: flex;
+    flex-direction: column;
+    width: 9%;
+    height: 100%;
+    font-size: small;
+}
+
+.CateogaryOptions img {
+    width: auto;
+}
+
+.CatOptDesc .PopularBooksdesc{
+    text-align: center;
+    height: 100%;
+}
+
+.PopularNav {
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    margin-top: 65px;
+    height:6%;
+}
+.AppGenre
+{
+    font-size:large;
+    width: 85%;
+    
+}
+.ViewAll
+{
+    border: 5px solid #ccc; 
+    border-radius: 20px; 
+    padding: 10px; 
+    font-size: 12px; 
+    width: fit-content; 
+    box-sizing: border-box; 
+    outline: none;
+    text-align: center;
+    box-sizing: border-box;  
+}
+.LeftRight
+{
+    margin: auto;
+    height: auto;
+}
+.PopularBooks
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+}
+.PopularBooksCard
+{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    font-size: small;
+}
+.PopularBooksImg
+{
+height: 80%;
+}
+.PopularBooksImg img
+{
+    height: 100%;
+    width: auto;
+}
+.BestSellers
+{
+    display: flex;
+    height: 20%;
+    background-color: peru;
+}
+.BookStack
+{
+    height: 100%;
+    margin: auto;
+}
+.AboutBestSellers
+{
+    height: 100%;
+    margin: auto;
+}
+.BestSellerCate
+{
+    display: flex;
+    height: 100%;
+   margin: auto;
+}
+.AboutUs
+{
+    height: 100%;
+}
